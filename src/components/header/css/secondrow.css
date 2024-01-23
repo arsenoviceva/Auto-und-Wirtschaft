@@ -1,0 +1,29 @@
+.secondRow {
+  background-color: #b51722;
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.42857143;
+  min-height: 1px;
+  z-index: 3;
+  color: white;
+  box-sizing: border-box;
+}
+
+.navbar-nav {
+  padding-right: 3rem;
+  position: relative;
+  z-index: 2;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+}
+
+.right {
+  justify-content: right;
+}
+
+.rightLink {
+  margin-right: 5rem;
+}
