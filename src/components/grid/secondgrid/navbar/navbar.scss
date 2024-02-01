@@ -1,0 +1,79 @@
+.container3{
+    background-color: #F5F5F5;
+
+}
+
+.row3{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    max-width: 1320px;
+
+    
+    
+}
+
+.navbarNewsletter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #F5F5F5;
+     
+  }
+  
+  .brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+  }
+  
+  .searchNewsletter {
+    display: flex;
+    align-items: center;
+    color: #b51722 ;
+     
+  }
+  
+  input {
+    width: 18rem;
+    padding: 0.5rem;
+    border: none;
+    opacity: 70%;
+    
+  }
+  
+  button {
+    background-color: #F5F5F5;
+    color: #b51722;
+    font-weight: 700;
+    padding: 0.4rem;
+    border: 2px solid ;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .social-icons {
+    margin-left: 5rem;
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .social-icons a {
+    color: #b51722;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+
+  span{
+    font-size: 0.9em;
+    opacity: 50%;
+  }
+
+  .envelope{
+    color:#b51722;
+    padding: 0;
+    margin: 0;
+    font-size: x-large;
+  }

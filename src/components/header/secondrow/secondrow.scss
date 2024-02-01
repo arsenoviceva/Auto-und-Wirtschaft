@@ -12,9 +12,10 @@
    
 }
 .navbar-nav{
-    padding-right: 3rem;
+  
     position: relative;
     z-index: 2;  
+    
 }
  
 .navbar-nav .nav-link
@@ -24,8 +25,12 @@
 .right{
     justify-content: right;
    
+    margin-left: 5rem;
+   
    
 }
 .rightLink{
-    margin-right: 5rem;
+    margin-left: 5rem;
+    
+     
 }

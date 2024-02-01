@@ -1,0 +1,54 @@
+ 
+.unordered1{
+    text-decoration: none;
+    list-style: none;
+    padding-top: 1rem;
+
+}
+.list-item1{
+    font-weight: 700;
+    font-size: small;
+    list-style: none;
+    text-decoration: none;
+
+}
+.list-item1 li a{
+    list-style: none;
+    text-decoration: none;
+    font-style: none;
+
+}
+
+.alist{
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.logofooter{
+    padding-left: 3rem;
+    padding-top: 1rem;
+    width: 70%;
+    height: 70%;
+}
+.containerblack{
+    padding: 0.5rem 0 0.5rem 0;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:1rem
+}
+.greyT{
+    color:#F5F5F5;;
+    font-size: 1em;
+    font-weight: 500;
+    
+   
+}
+.whiteT{
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: 500;
+    opacity: 100%;
+   
+}

@@ -1,29 +1,26 @@
 .thirdrow{
-
-    
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
     color: white;
     background-color: #3c3c3b;
     justify-content: space-around;
     min-height: 56px;
     position: relative;
     z-index: 100;
-    margin-bottom: 30px;
+    margin: 0;     
 }
 
 .space{
     margin-lefT: 4rem;
 }
 .search{
-
-    justify-content: center;
-    align-items: center;
-    margin-left: 4rem;
-  
-      
-    
-  
-    
+    margin-right: -5rem;
 }
 
+.active{
+    border-bottom: 2px solid #fafafa !important;
+    color:white !important;
+    font-weight: 700 !important;
+}
  
- 
+
