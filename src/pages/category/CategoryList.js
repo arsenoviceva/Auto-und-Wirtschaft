@@ -10,7 +10,7 @@ const CategoryList = () => {
                 <span class="separator">{'>>'}</span>
                 <a href="/news" style={{opacity: '50%', color: 'black', textDecoration:'none'}}>News</a>
                 <span class="separator">{'>>'}</span>
-                <a href="/categoryList" style={{  color: 'red', textDecoration:'none'}}>Category name</a>
+                <a href="/categoryList" style={{  color: '#b51722', textDecoration:'none'}}>Category name</a>
             </nav>
  
             <div class="row">
@@ -110,7 +110,7 @@ const CategoryList = () => {
                 <div class="col-3">
                     <h4 className="h4title" > Current issue</h4>
                     <hr/>
-                    <img className="colImg2" src="https://autoundwirtschaft.at/MagazineImages-141x200/250-auto-wirtschaft-09-2023.png" />
+                    <img className="colImg2" src="https://ch.awverlag.com/MedienweltImages-270x379/21_medienwelt-auto-wirtschaft-irega.jpg" />
                     <h4 className="colTitle"> AUTO & Wirtschaft</h4>
                     <h4 className="colTitleRed"> 09/2023 </h4>
                     <img className="colImg" src="https://advertising.symple.ch/www/images/a964cfcd3dacd8eb2ab31723f9b5f8a9.jpg" />

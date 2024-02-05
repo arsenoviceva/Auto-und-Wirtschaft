@@ -1,7 +1,7 @@
 import React from "react";
 import { Outlet, Link } from "react-router-dom";
 
-import './firstgrid.scss'
+import './firstgrid.scss';
  
 
 const FirstGrid = () => {
@@ -121,7 +121,7 @@ const FirstGrid = () => {
                     <img className="colImg" src="https://advertising.symple.ch/www/images/a964cfcd3dacd8eb2ab31723f9b5f8a9.jpg" />
                     <h4 className="colTitle"> AUTO & Wirtschaft</h4>
                     <h4 className="colTitleRed"> 09/2023 </h4>
-                    <img className="colImg2" src="https://autoundwirtschaft.at/MagazineImages-141x200/250-auto-wirtschaft-09-2023.png" />
+                    <img className="colImg" src="https://ch.awverlag.com/MedienweltImages-270x379/21_medienwelt-auto-wirtschaft-irega.jpg" />
                     <h4 className="colTitle2"> Most read</h4>
                     <hr/>
                     <ol> 

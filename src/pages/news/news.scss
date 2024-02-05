@@ -1,0 +1,41 @@
+.rowtitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1rem;
+   
+}
+.soc-icons{
+    
+    justify-content: end;
+}
+.soc-icons svg{
+    width: 2rem;
+    height: 2rem;
+}
+.simpletitle{
+    display: flex;
+    opacity: 50%;
+    gap: 0.5rem;
+   
+}
+.leftline{
+    padding: 0 0.5rem ;
+     border-right: 2px solid black;
+    
+}
+.col-12{
+    padding: 1rem 0 1rem 0;
+}
+.minititle{
+    padding-top: 1rem;
+    font-weight: 700;
+}
+.picture-row{
+    display: flex;
+    gap: 0.5rem
+}
+.ending {
+    display: flex;
+    justify-content: space-between;
+  }

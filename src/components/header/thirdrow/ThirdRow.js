@@ -13,7 +13,7 @@ const ThirdRow = () => {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="col-md-12 me-auto ">
-                    <Nav.Link className="active" href="/ " >NEWS</Nav.Link>
+                    <Nav.Link className="active" href="/news " >NEWS</Nav.Link>
                    
                     <Nav.Link className="space" href="#features">E-PAPER</Nav.Link>
                     <Nav.Link className="space" href="#pricing">SPECIALS</Nav.Link>
