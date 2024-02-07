@@ -7,6 +7,7 @@ import { TfiLocationPin } from "react-icons/tfi";
 const UpcomingEvents = () => {
   return (
     <div className="container">
+        <div className="col-lg-12"> 
       <div className="events">
         <a className="logo" href="/">
           <img src={logo} style={{ width: "200px", height: "50px" }} />
@@ -16,15 +17,15 @@ const UpcomingEvents = () => {
       <hr />
       <div className="firstrowevents">
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-lg-6">
             <div className="secondrowevents">
-              <div className="col-6">
+              <div className="col-lg-6">
                 <div className="img-cover">
                   <img src="https://autoundwirtschaft.at/GalleryImages-720x469/8091_CH_AW_Tag_20231017_1714.jpg" />
                 </div>
               </div>
 
-              <div className="col-md-6">
+              <div className="col-lg-6">
                 <h3 className="titleevent"> Event name number 1 </h3>
                 <h4 className="titledetails">
                   {" "}
@@ -39,14 +40,14 @@ const UpcomingEvents = () => {
             </div>
           </div>
 
-          <div className="col-md-6">
+          <div className="col-lg-6">
             <div className="secondrowevents">
-              <div className="col-6">
+              <div className="col-lg-6">
                 <div className="img-cover">
                   <img src="https://autoundwirtschaft.at/GalleryImages-720x469/8091_CH_AW_Tag_20231017_1714.jpg" />
                 </div>
               </div>
-              <div className="col-md-6">
+              <div className="col-lg-6">
                 <h3 className="titleevent"> Event name number 2 </h3>
                 <h4 className="titledetails">
                   {" "}
@@ -65,15 +66,15 @@ const UpcomingEvents = () => {
 
       <div className="firstrowevents">
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-lg-6">
             <div className="secondrowevents">
-              <div className="col-6">
+              <div className="col-lg-6">
                 <div className="img-cover">
                   <img src="https://autoundwirtschaft.at/GalleryImages-720x469/8091_CH_AW_Tag_20231017_1714.jpg" />
                 </div>
               </div>
 
-              <div className="col-md-6">
+              <div className="col-lg-6">
                 <h3 className="titleevent"> Event name number 3 </h3>
                 <h4 className="titledetails">
                   {" "}
@@ -88,14 +89,14 @@ const UpcomingEvents = () => {
             </div>
           </div>
 
-          <div className="col-md-6">
+          <div className="col-lg-6">
             <div className="secondrowevents">
-              <div className="col-6">
+              <div className="col-lg-6">
                 <div className="img-cover">
                   <img src="https://autoundwirtschaft.at/GalleryImages-720x469/8091_CH_AW_Tag_20231017_1714.jpg" />
                 </div>
               </div>
-              <div className="col-md-6">
+              <div className="col-lg-6">
                 <h3 className="titleevent"> Event name number 4 </h3>
                 <h4 className="titledetails">
                   {" "}
@@ -110,6 +111,7 @@ const UpcomingEvents = () => {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </div>
   );

@@ -1,45 +1,61 @@
 import React from "react";
-import {FaFacebook, FaTwitter, FaLinkedin, FaYoutube } from 'react-icons/fa';
+import { FaFacebook, FaTwitter, FaLinkedin, FaYoutube } from "react-icons/fa";
+import { Container, Nav, Navbar } from "react-bootstrap";
 import { FaRegEnvelopeOpen } from "react-icons/fa6";
-import './navbar.scss';
+import "./navbar.scss";
 
-const Navbar = () => {
-   
+const Navbar1 = () => {
+  return (
+ 
+ 
 
-   
-    return (
-        <div className="container3">
 
-        
-        <div className="row3">
-        <nav className="navbarNewsletter">
-        <FaRegEnvelopeOpen className="envelope" />
-      <div className="brand">Newsletter</div>
-      
-      <span> Immer informiert blieben mit A&W-Newsletter. Jetzt anmelden! </span>
-      <div className="searchNewsletter">
-        <input type="text" placeholder="Ihre e-mail adresse" />
-        <button>
-           ANMELDEN
-        </button>
-      </div>
-      <div className="social-icons">
-        <a href="#">
-          <FaFacebook />
-        </a>
-        <a href="#">
-          <FaTwitter />
-        </a>
-        <a href="#">
-          <FaLinkedin />
-        </a>
-        <a href="#">
-          <FaYoutube />
-        </a>
+<nav class="navbar navbar-expand-lg navbarNewsletter grey">
+      <div class="container grey">
+        <div className="col-lg-12">
+          <div className="row">
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav ">
+             
+                
+                <FaRegEnvelopeOpen className="envelope" />
+             
+                <h4 className="brand" >
+                Newsletter
+                </h4>
+                <span >
+                Immer informiert blieben mit A&W-Newsletter. Jetzt anmelden!
+                </span>
+                <a class="searchNewsletter" >
+                
+                <input type="text" placeholder="Ihre e-mail adresse" />
+              <button>ANMELDEN</button>
+         
+                </a>
+                <div className="social-icons"> 
+                <a href="#">
+                <FaFacebook />
+                </a>
+                <a href="#">
+                <FaTwitter />
+                </a>
+                <a href="#">
+                <FaLinkedin />
+                </a>
+                <a href="#">
+                <FaYoutube />
+                </a>
+                </div>
+              
+         
+            </Navbar.Collapse>
+          </div>
+        </div>
       </div>
     </nav>
-    </div>
-    </div>
-    )
-}
-export default Navbar;
+ 
+    
+  );
+
+};
+export default Navbar1;

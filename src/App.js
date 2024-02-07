@@ -20,10 +20,10 @@ function App() {
     <div>
       <Header />
       <div className="container" style={{position:'relative'}}> 
-      <div style={{width: '100px', height: '100px', position: 'absolute', right:'-6rem'}}>
+      {/*  <div style={{width: '100px', height: '100px', position: 'absolute', right:'-6rem'}}>
         <img src="https://advertising.symple.ch/www/images/59dd7654e0224a14678e3de03c4935f2.jpg"/>
 
-      </div>
+      </div>*/}
       <BrowserRouter>
 
         <Routes>

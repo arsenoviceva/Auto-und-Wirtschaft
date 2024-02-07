@@ -32,6 +32,7 @@ const News = () => {
             Electric vehicles
           </a>
         </nav>
+        <div className="col-lg-12"> 
         <div className="row">
           <div className="rowtitle">
             <h4 style={{ color: "#b51722" }}>
@@ -72,25 +73,25 @@ const News = () => {
             />
           </div>
 
-          <div className="col-3">
+          <div className="col-lg-3">
             <img
               src="https://autoundwirtschaft.at/NewsImages-870x580/pic41704_1-nicht-jeder-test-ist-erfolgreich.png"
               style={{ width: "100%" }}
             />
           </div>
-          <div className="col-3">
+          <div className="col-lg-3">
             <img
               src="https://autoundwirtschaft.at/NewsImages-870x580/pic41704_1-nicht-jeder-test-ist-erfolgreich.png"
               style={{ width: "100%" }}
             />
           </div>
-          <div className="col-3">
+          <div className="col-lg-3">
             <img
               src="https://autoundwirtschaft.at/NewsImages-870x580/pic41704_1-nicht-jeder-test-ist-erfolgreich.png"
               style={{ width: "100%" }}
             />
           </div>
-          <div className="col-3">
+          <div className="col-lg-3">
             <img
               src="https://autoundwirtschaft.at/NewsImages-870x580/pic41704_1-nicht-jeder-test-ist-erfolgreich.png"
               style={{ width: "100%" }}
@@ -104,7 +105,7 @@ const News = () => {
             aliquip ex ea commodo consequat.
           </h4>
           <div className="row">
-            <div className="col-9">
+            <div className="col-lg-9">
               <img
                 src="https://advertising.symple.ch/www/images/84529c2e9eb33d357352ca9fdae9737e.gif"
                 alt=""
@@ -194,19 +195,19 @@ const News = () => {
                 durchgeführt wurden.
               </p>
               <div className="picture-row">
-                <div className="col-4">
+                <div className="col-lg-4">
                   <img
                     src="https://autoundwirtschaft.at/NewsImages-870x580/pic41704_1-nicht-jeder-test-ist-erfolgreich.png"
                     style={{ width: "100%" }}
                   />
                 </div>
-                <div className="col-4">
+                <div className="col-lg-4">
                   <img
                     src="https://autoundwirtschaft.at/NewsImages-870x580/pic41704_1-nicht-jeder-test-ist-erfolgreich.png"
                     style={{ width: "100%" }}
                   />
                 </div>
-                <div className="col-4">
+                <div className="col-lg-4">
                   <img
                     src="https://autoundwirtschaft.at/NewsImages-870x580/pic41704_1-nicht-jeder-test-ist-erfolgreich.png"
                     style={{ width: "100%" }}
@@ -233,7 +234,7 @@ const News = () => {
                 rund um den Jahreswechsel 2022/23 durchgeführt wurden.
               </p>
             </div>
-            <div className="col-3">
+            <div className="col-lg-3">
               <img
                 className="colImg"
                 src="https://advertising.symple.ch/www/images/a964cfcd3dacd8eb2ab31723f9b5f8a9.jpg"
@@ -305,6 +306,7 @@ const News = () => {
             {" "}
             VIEW MORE {">>"}{" "}
           </Link>
+        </div>
         </div>
       </div>
 
