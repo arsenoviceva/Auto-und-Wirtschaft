@@ -3,7 +3,8 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 
 const NavbarFooter = () => {
   return (
-    <div class="container">
+    <div className="containerGrey">
+<div class="container">
     <nav class="navbar navbar-expand-lg grey">
       
         <div className="col-lg-12">
@@ -49,6 +50,7 @@ const NavbarFooter = () => {
         </div>
     
     </nav>
+    </div>
     </div>
   );
 };

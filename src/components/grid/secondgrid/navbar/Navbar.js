@@ -9,7 +9,7 @@ const Navbar1 = () => {
  
  
 
-
+    <div className="containerGrey">
 <nav class="navbar navbar-expand-lg navbarNewsletter grey">
       <div class="container grey">
         <div className="col-lg-12">
@@ -53,6 +53,7 @@ const Navbar1 = () => {
         </div>
       </div>
     </nav>
+    </div>
  
     
   );

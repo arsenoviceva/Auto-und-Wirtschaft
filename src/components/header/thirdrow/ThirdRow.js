@@ -10,7 +10,7 @@ const ThirdRow = () => {
       <Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="col-lg-12 me-auto ">
+          <Nav className="col-lg-10 me-auto ">
             <Nav.Link className="active" href="/news ">
               NEWS
             </Nav.Link>
@@ -35,7 +35,7 @@ const ThirdRow = () => {
             </Nav.Link>
           </Nav>
 
-          <Nav className="search">
+          <Nav className="col-lg-2 search">
             <RiSearchLine style={{ width: "auto", height: "1.4rem" }} />
           </Nav>
         </Navbar.Collapse>

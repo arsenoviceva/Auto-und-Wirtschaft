@@ -18,7 +18,7 @@ const SecondRow = () => {
         </Nav>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="col-md-12 me-auto right ">
+          <Nav className="col-md-10 me-auto right ">
             <Nav.Link className="rightLink" href="https://at.awverlag.com/">
               ABW Tag
             </Nav.Link>

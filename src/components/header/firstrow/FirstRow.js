@@ -10,7 +10,7 @@ const FirstRow = () => {
       <Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="col-lg-12 me-auto ">
+          <Nav className="col-lg-10 me-auto ">
             <Nav.Link href="https://at.awverlag.com/">Verlag</Nav.Link>
             <Nav.Link href="https://at.awverlag.com/unternehmen.php">
               Team
@@ -19,7 +19,7 @@ const FirstRow = () => {
             <Nav.Link href="#mediadaten">Mediadaten</Nav.Link>
             <Nav.Link href="#abo">ABO</Nav.Link>
           </Nav>
-          <Nav className="col-lg-2 me-auto">
+          <Nav className="col-lg-2 me-auto ">
             <Nav.Link href="#abo">
               {" "}
               <FaUser style={{ verticalAlign: "text-top" }} /> LOG IN

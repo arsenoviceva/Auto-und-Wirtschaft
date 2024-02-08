@@ -149,7 +149,7 @@ const News = () => {
                 der Personaleinsparungen, die rund um den Jahreswechsel 2022/23
                 durchgeführt wurden.
               </p>
-              <img src="https://autoundwirtschaft.at/NewsImages-870x580/pic41704_1-nicht-jeder-test-ist-erfolgreich.png" />{" "}
+              <img src="https://autoundwirtschaft.at/NewsImages-870x580/pic41704_1-nicht-jeder-test-ist-erfolgreich.png" style={{width:'100%'}} />{" "}
               <br />
               <br />
               <img
@@ -294,19 +294,10 @@ const News = () => {
           </div>
         </div>
         <div className="ending">
-          <h3> A&W Wisseen </h3>
-          <Link
-            to="/categoryList "
-            style={{
-              textDecoration: "none",
-              color: "#b51722",
-              fontWeight: "500",
-            }}
-          >
-            {" "}
-            VIEW MORE {">>"}{" "}
-          </Link>
-        </div>
+                    <h3> A&W Wisseen </h3>
+                    <Link to="/categoryList " target="_top" style={{textDecoration: 'none', color: '#b51722', fontWeight: '500'}}> VIEW MORE {'>>'} </Link>    
+                </div>
+                <hr/> 
         </div>
       </div>
 

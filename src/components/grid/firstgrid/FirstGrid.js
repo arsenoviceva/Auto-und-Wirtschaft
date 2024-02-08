@@ -46,7 +46,7 @@ const FirstGrid = () => {
             
                         <div class='col-lg-4'>
                             <div class="card" >
-                                <img className="card-img" src="https://autoundwirtschaft.at/NewsImages-868x537/pic41766_1-land-oberosterreich-will-keine-byd-fahrzeuge.jpeg"/>
+                                <img className="card-img" src="https://autoundwirtschaft.at/VideoImages-370x246/43-auto-bild-driving-day-2019.png"/>
                                 <div class="card-body">
                                     <div className="titleopasity">
                                         <span class="card-title1 ">NEWS</span>
@@ -58,7 +58,7 @@ const FirstGrid = () => {
                         </div>
                         <div class='col-lg-4'>
                             <div class="card" >
-                                <img className="card-img" src="https://autoundwirtschaft.at/NewsImages-868x537/pic41766_1-land-oberosterreich-will-keine-byd-fahrzeuge.jpeg"/>
+                                <img className="card-img" src="https://autoundwirtschaft.at/VideoImages-370x246/43-auto-bild-driving-day-2019.png"/>
                                 <div class="card-body">
                                     <div className="titleopasity">
                                         <span class="card-title1 ">NEWS</span>
@@ -133,7 +133,7 @@ const FirstGrid = () => {
                 </div>
                 <div className="ending">
                     <h3> A&W Wisseen </h3>
-                    <Link to="/categoryList " style={{textDecoration: 'none', color: '#b51722', fontWeight: '500'}}> VIEW MORE {'>>'} </Link>    
+                    <Link to="/categoryList " target="_top" style={{textDecoration: 'none', color: '#b51722', fontWeight: '500'}}> VIEW MORE {'>>'} </Link>    
                 </div>
                 <hr/> 
                 

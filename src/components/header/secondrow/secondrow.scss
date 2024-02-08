@@ -15,6 +15,7 @@
   
     position: relative;
     z-index: 2;  
+    gap: 2rem;
     
 }
  
@@ -25,12 +26,4 @@
 .right{
     justify-content: right;
    
-    margin-left: 5rem;
-   
-   
-}
-.rightLink{
-    margin-left: 5rem;
-    
-     
 }
