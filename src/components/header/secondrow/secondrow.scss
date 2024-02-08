@@ -1,29 +1,23 @@
-.secondRow{
-  
-    background-color: #b51722;
-    display: block;
-    font-family: 'Roboto', sans-serif;
-    font-size: 0.9rem;
-    line-height: 1.42857143;
-    min-height: 1px;
-    z-index: 3;
-    color: white;
-    box-sizing: border-box;
-   
+.secondRow {
+  background-color: #b51722;
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.42857143;
+  min-height: 1px;
+  z-index: 3;
+  color: white;
+  box-sizing: border-box;
 }
-.navbar-nav{
-  
-    position: relative;
-    z-index: 2;  
-    gap: 2rem;
-    
+.navbar-nav {
+  position: relative;
+  z-index: 2;
+  gap: 2rem;
 }
- 
-.navbar-nav .nav-link
-{
-    color:#fff;
+
+.navbar-nav .nav-link {
+  color: #fff;
 }
-.right{
-    justify-content: right;
-   
+.right {
+  justify-content: right;
 }

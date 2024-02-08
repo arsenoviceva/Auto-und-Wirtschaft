@@ -5,7 +5,7 @@ import Navbar1 from "./navbar/Navbar";
 
 const SecondGrid = () => {
   return (
-    <div >
+    <div>
       <div className="container greybg">
         <div className="col-lg-12">
           <div className="row padd">
@@ -74,9 +74,8 @@ const SecondGrid = () => {
             </div>
           </div>
         </div>
-        </div>
-        <Navbar1 />
-      
+      </div>
+      <Navbar1 />
     </div>
   );
 };
