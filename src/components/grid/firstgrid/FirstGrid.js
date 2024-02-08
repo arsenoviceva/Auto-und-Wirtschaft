@@ -133,7 +133,7 @@ const FirstGrid = () => {
                     </div>
                     <div className="ending">
                         <h3> A&W Wisseen </h3>
-                        <Link to="/categoryList " target="_top" style={{textDecoration: 'none', color: '#b51722', fontWeight: '500'}}> VIEW MORE {'>>'} </Link>    
+                        <Link to="/categoryList " target="_top" style={{textDecoration: 'none', color: '#b51722', fontWeight: '500'}}> CATEGORY {'>>'} </Link>    
                     </div>
                     <hr/> 
                 

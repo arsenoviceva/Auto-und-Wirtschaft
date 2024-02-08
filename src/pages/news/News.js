@@ -309,7 +309,7 @@ const News = () => {
               }}
             >
               {" "}
-              VIEW MORE {">>"}{" "}
+              CATEGORY {">>"}{" "}
             </Link>
           </div>
           <hr />
