@@ -1,11 +1,11 @@
 import "./navbarfooter.scss";
-import { Container, Nav, Navbar } from "react-bootstrap";
+import { Navbar } from "react-bootstrap";
 
 const NavbarFooter = () => {
   return (
     <div className="containerGrey">
       <div class="container">
-        <nav class="navbar navbar-expand-lg grey">
+        <nav class="navbar navbar-expand-lg grey noPadding">
           <div className="col-lg-12">
             <div className="row">
               <Navbar.Toggle aria-controls="basic-navbar-nav" />

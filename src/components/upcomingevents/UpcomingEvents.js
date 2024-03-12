@@ -26,16 +26,16 @@ const UpcomingEvents = () => {
                 </div>
 
                 <div className="col-lg-6">
-                  <h3 className="titleevent"> Event name number 1 </h3>
-                  <h4 className="titledetails">
+                  <h4 className="titleevent"> Event name number 1 </h4>
+                  <h5 className="titledetails">
                     {" "}
                     <TbClockCheck className="icons" /> Time: 2/10/2023
-                  </h4>
-                  <h4 className="titledetails">
+                  </h5>
+                  <h5 className="titledetails">
                     {" "}
                     <TfiLocationPin className="icons" /> Location: Location Gala
                     Event Club
-                  </h4>
+                  </h5>
                 </div>
               </div>
             </div>
@@ -48,16 +48,16 @@ const UpcomingEvents = () => {
                   </div>
                 </div>
                 <div className="col-lg-6">
-                  <h3 className="titleevent"> Event name number 2 </h3>
-                  <h4 className="titledetails">
+                  <h4 className="titleevent"> Event name number 2 </h4>
+                  <h5 className="titledetails">
                     {" "}
                     <TbClockCheck className="icons" /> Time: 2/10/2023
-                  </h4>
-                  <h4 className="titledetails">
+                  </h5>
+                  <h5 className="titledetails">
                     {" "}
                     <TfiLocationPin className="icons" /> Location: Location Gala
                     Event Club
-                  </h4>
+                  </h5>
                 </div>
               </div>
             </div>
@@ -75,16 +75,16 @@ const UpcomingEvents = () => {
                 </div>
 
                 <div className="col-lg-6">
-                  <h3 className="titleevent"> Event name number 3 </h3>
-                  <h4 className="titledetails">
+                  <h4 className="titleevent"> Event name number 3 </h4>
+                  <h5 className="titledetails">
                     {" "}
                     <TbClockCheck className="icons" /> Time: 2/10/2023
-                  </h4>
-                  <h4 className="titledetails">
+                  </h5>
+                  <h5 className="titledetails">
                     {" "}
                     <TfiLocationPin className="icons" /> Location: Location Gala
                     Event Club
-                  </h4>
+                  </h5>
                 </div>
               </div>
             </div>
@@ -97,16 +97,16 @@ const UpcomingEvents = () => {
                   </div>
                 </div>
                 <div className="col-lg-6">
-                  <h3 className="titleevent"> Event name number 4 </h3>
-                  <h4 className="titledetails">
+                  <h4 className="titleevent"> Event name number 4 </h4>
+                  <h5 className="titledetails">
                     {" "}
                     <TbClockCheck className="icons" /> Time: 2/10/2023
-                  </h4>
-                  <h4 className="titledetails">
+                  </h5>
+                  <h5 className="titledetails">
                     {" "}
                     <TfiLocationPin className="icons" /> Location: Location Gala
                     Event Club
-                  </h4>
+                  </h5>
                 </div>
               </div>
             </div>

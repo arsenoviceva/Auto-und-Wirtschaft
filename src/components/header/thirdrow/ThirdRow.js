@@ -11,26 +11,26 @@ const ThirdRow = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="col-lg-10 me-auto ">
-            <Nav.Link className="active" href="/news ">
+            <Nav.Link className="noHover" href="/news ">
               NEWS
             </Nav.Link>
 
-            <Nav.Link className="space" href="#features">
+            <Nav.Link className="noHover" href="#features">
               E-PAPER
             </Nav.Link>
-            <Nav.Link className="space" href="#pricing">
+            <Nav.Link className="noHover" href="#pricing">
               SPECIALS
             </Nav.Link>
-            <Nav.Link className="space" href="#home">
+            <Nav.Link className="noHover" href="#home">
               SERVICE
             </Nav.Link>
-            <Nav.Link className="space" href="#features">
+            <Nav.Link className="noHover" href="#features">
               NEWSLETTER
             </Nav.Link>
-            <Nav.Link className="space" href="#pricing">
+            <Nav.Link className="noHover" href="#pricing">
               FOTO/VIDEO
             </Nav.Link>
-            <Nav.Link className="space" href="#pricing">
+            <Nav.Link className="noHover" href="#pricing">
               A&W WISSEN
             </Nav.Link>
           </Nav>

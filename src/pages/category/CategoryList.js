@@ -1,26 +1,25 @@
 import "./categorylist.scss";
-import FirstGrid from "../../components/grid/firstgrid/FirstGrid";
 import ThirdGrid from "../../components/grid/thirdgrid/ThirdGrid";
 
 const CategoryList = () => {
   return (
     <div className="container">
       <nav class="breadcrumb">
-        <a
+        <a className="breadcrumbStyle"
           href="/"
           style={{ opacity: "50%", color: "black", textDecoration: "none" }}
         >
           Home
         </a>
         <span class="separator">{">>"}</span>
-        <a
+        <a className="breadcrumbStyle"
           href="/news"
           style={{ opacity: "50%", color: "black", textDecoration: "none" }}
         >
           News
         </a>
         <span class="separator">{">>"}</span>
-        <a
+        <a className="breadcrumbStyle"
           href="/categoryList"
           style={{ color: "#b51722", textDecoration: "none" }}
         >
@@ -30,7 +29,7 @@ const CategoryList = () => {
       <div className="col-lg-12">
         <div class="row">
           <div class="col-lg-9">
-            <h1 style={{ fontWeight: "700" }}> Category name</h1>
+            <h2 className="categoryNameTitle"> Category name</h2>
 
             <div className="row">
               <div class="col-lg-6">
@@ -41,8 +40,8 @@ const CategoryList = () => {
                   />
                   <div class="card-body">
                     <div className="titleopasity">
-                      <span class="card-title1 ">NEWS</span>
-                      <span class="card-title2 ">SHORT TITLE</span>
+                      <span class="news-title1 ">NEWS</span>
+                      <span class="shortTitle-title2 ">SHORT TITLE</span>
                     </div>
                     <p class="card-text">
                       Neu Porsche Macan EV Prototype Drive
@@ -59,8 +58,8 @@ const CategoryList = () => {
                   />
                   <div class="card-body">
                     <div className="titleopasity">
-                      <span class="card-title1 ">NEWS</span>
-                      <span class="card-title2 ">SHORT TITLE</span>
+                      <span class="news-title1 ">NEWS</span>
+                      <span class="shortTitle-title2 ">SHORT TITLE</span>
                     </div>
                     <p class="card-text">
                       Neu Porsche Macan EV Prototype Drive
@@ -79,8 +78,8 @@ const CategoryList = () => {
                   />
                   <div class="card-body">
                     <div className="titleopasity">
-                      <span class="card-title1 ">NEWS</span>
-                      <span class="card-title2 ">SHORT TITLE</span>
+                      <span class="news-title1 ">NEWS</span>
+                      <span class="shortTitle-title2 ">SHORT TITLE</span>
                     </div>
                     <p class="card-text">
                       Neu Porsche Macan EV Prototype Drive
@@ -97,8 +96,8 @@ const CategoryList = () => {
                   />
                   <div class="card-body">
                     <div className="titleopasity">
-                      <span class="card-title1 ">NEWS</span>
-                      <span class="card-title2 ">SHORT TITLE</span>
+                      <span class="news-title1 ">NEWS</span>
+                      <span class="shortTitle-title2 ">SHORT TITLE</span>
                     </div>
                     <p class="card-text">
                       Neu Porsche Macan EV Prototype Drive
@@ -117,8 +116,8 @@ const CategoryList = () => {
                   />
                   <div class="card-body">
                     <div className="titleopasity">
-                      <span class="card-title1 ">NEWS</span>
-                      <span class="card-title2 ">SHORT TITLE</span>
+                      <span class="news-title1 ">NEWS</span>
+                      <span class="shortTitle-title2 ">SHORT TITLE</span>
                     </div>
                     <p class="card-text">
                       Neu Porsche Macan EV Prototype Drive
@@ -135,8 +134,8 @@ const CategoryList = () => {
                   />
                   <div class="card-body">
                     <div className="titleopasity">
-                      <span class="card-title1 ">NEWS</span>
-                      <span class="card-title2 ">SHORT TITLE</span>
+                      <span class="news-title1 ">NEWS</span>
+                      <span class="shortTitle-title2 ">SHORT TITLE</span>
                     </div>
                     <p class="card-text">
                       Neu Porsche Macan EV Prototype Drive

@@ -3,6 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding-bottom: 1rem;
+  
 }
 .soc-icons {
   justify-content: end;
@@ -18,7 +19,7 @@
 }
 .leftline {
   padding: 0 0.5rem;
-  border-right: 2px solid black;
+  border-right: 2px solid #8d0e17;
 }
 .col-12 {
   padding: 1rem 0 1rem 0;
@@ -26,6 +27,8 @@
 .minititle {
   padding-top: 1rem;
   font-weight: 700;
+  margin-bottom: 2rem;
+   
 }
 .picture-row {
   display: flex;
@@ -35,3 +38,26 @@
   display: flex;
   justify-content: space-between;
 }
+.carsLabel{
+  color: #b51722;
+  background-color: #f5f5f5;
+  
+}
+.dateLabel{
+  background-color: #47689e;
+  color: white;
+  opacity: 100%;
+  margin: 0;
+}
+.row{
+  margin: 0;
+}
+.detailLabelPic{
+  width: 90%;
+  padding: 12px;
+
+}
+.paragraph{
+  margin: 2rem 0 2rem 0 ;
+}
+ 

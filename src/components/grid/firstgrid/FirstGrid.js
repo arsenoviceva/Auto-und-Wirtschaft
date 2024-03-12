@@ -1,5 +1,5 @@
 import React from "react";
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import './firstgrid.scss';
  
@@ -7,7 +7,7 @@ const FirstGrid = () => {
     return (
         
         <div class="container">
-            <div className="col-lg-12">
+            
                 <div class="row">
                     <div class="col-lg-9">
                         <img src="https://advertising.symple.ch/www/images/84529c2e9eb33d357352ca9fdae9737e.gif"  alt="" title="" border="0" width="100%"  />
@@ -19,8 +19,8 @@ const FirstGrid = () => {
                                     <img src="https://autoundwirtschaft.at/NewsImages-868x537/pic41766_1-land-oberosterreich-will-keine-byd-fahrzeuge.jpeg"/>
                                     <div class="card-body">  
                                         <div className="titleopasity">
-                                            <span class="card-title1 ">NEWS</span>
-                                            <span class="card-title2 ">SHORT TITLE</span>
+                                            <span class="news-title1 ">NEWS</span>
+                                            <span class="shortTitle-title2 ">SHORT TITLE</span>
                                         </div>
                                         <p class="card-text">Neu Porsche Macan EV Prototype Drive: Porsches Zukunft Leigt bei uns</p>
                                     </div>
@@ -32,8 +32,8 @@ const FirstGrid = () => {
                                     <img className="card-img" src="https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGNhcnxlbnwwfHwwfHx8MA%3D%3D"/>
                                     <div class="card-body">   
                                         <div className="titleopasity">
-                                            <span class="card-title1 ">NEWS</span>
-                                            <span class="card-title2 ">SHORT TITLE</span>
+                                            <span class="news-title1 ">NEWS</span>
+                                            <span class="shortTitle-title2 ">SHORT TITLE</span>
                                         </div>
                                         <p class="card-text">Neu Porsche Macan EV Prototype Drive: Porsches Zukunft Leigt bei uns</p>
                                     </div>
@@ -49,8 +49,8 @@ const FirstGrid = () => {
                                     <img className="card-img" src="https://autoundwirtschaft.at/VideoImages-370x246/43-auto-bild-driving-day-2019.png"/>
                                     <div class="card-body">
                                         <div className="titleopasity">
-                                            <span class="card-title1 ">NEWS</span>
-                                            <span class="card-title2 ">SHORT TITLE</span>
+                                            <span class="news-title1 ">NEWS</span>
+                                            <span class="shortTitle-title2 ">SHORT TITLE</span>
                                         </div>
                                         <p class="card-text">Neu Porsche Macan EV Prototype Drive </p>
                                     </div>
@@ -61,8 +61,8 @@ const FirstGrid = () => {
                                     <img className="card-img" src="https://autoundwirtschaft.at/VideoImages-370x246/43-auto-bild-driving-day-2019.png"/>
                                     <div class="card-body">
                                         <div className="titleopasity">
-                                            <span class="card-title1 ">NEWS</span>
-                                            <span class="card-title2 ">SHORT TITLE</span>
+                                            <span class="news-title1 ">NEWS</span>
+                                            <span class="shortTitle-title2 ">SHORT TITLE</span>
                                         </div>
                                         <p class="card-text">Neu Porsche Macan EV Prototype Drive </p>
                                     </div>
@@ -73,8 +73,8 @@ const FirstGrid = () => {
                                     <img className="card-img" src="https://autoundwirtschaft.at/VideoImages-370x246/43-auto-bild-driving-day-2019.png"/>
                                     <div class="card-body">
                                         <div className="titleopasity">
-                                            <span class="card-title1 ">NEWS</span>
-                                            <span class="card-title2 ">SHORT TITLE</span>
+                                            <span class="news-title1 ">NEWS</span>
+                                            <span class="shortTitle-title2 ">SHORT TITLE</span>
                                         </div>
                                         <p class="card-text">Neu Porsche Macan EV Prototype Drive </p>
                                     </div>
@@ -90,8 +90,8 @@ const FirstGrid = () => {
                                     <img className="card-img" src="https://autoundwirtschaft.at/NewsImages-868x537/pic41766_1-land-oberosterreich-will-keine-byd-fahrzeuge.jpeg"/>
                                     <div class="card-body">
                                         <div className="titleopasity">
-                                            <span class="card-title1 ">NEWS</span>
-                                            <span class="card-title2 ">SHORT TITLE</span>
+                                            <span class="news-title1 ">NEWS</span>
+                                            <span class="shortTitle-title2 ">SHORT TITLE</span>
                                         </div>
                                         <p class="card-text">Neu Porsche Macan EV Prototype Drive</p>
                                     </div>
@@ -103,10 +103,10 @@ const FirstGrid = () => {
                                     <img className="card-img" src="https://autoundwirtschaft.at/NewsImages-868x537/pic41766_1-land-oberosterreich-will-keine-byd-fahrzeuge.jpeg"/>
                                     <div class="card-body">
                                         <div className="titleopasity">
-                                        <span class="card-title1 ">NEWS</span>
-                                        <span class="card-title2 ">SHORT TITLE</span>
-                                    </div>
-                                    <p class="card-text">Neu Porsche Macan EV Prototype Drive</p>
+                                            <span class="news-title1 ">NEWS</span>
+                                            <span class="shortTitle-title2 ">SHORT TITLE</span>
+                                        </div>
+                                        <p class="card-text">Neu Porsche Macan EV Prototype Drive</p>
                                     </div>
                                 </div>
                             </div>
@@ -133,7 +133,7 @@ const FirstGrid = () => {
                     </div>
                     <div className="ending">
                         <h3> A&W Wisseen </h3>
-                        <Link to="/categoryList " target="_top" style={{textDecoration: 'none', color: '#b51722', fontWeight: '500'}}> CATEGORY {'>>'} </Link>    
+                        <Link to="/category" target="_top" style={{textDecoration: 'none', color: '#b51722', fontWeight: '500'}}> CATEGORY {'>>'} </Link>    
                     </div>
                     <hr/> 
                 
@@ -141,7 +141,7 @@ const FirstGrid = () => {
                 </div>
             </div>
 
-        </div>
+        
     
     )
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import { FaFacebook, FaTwitter, FaLinkedin, FaYoutube } from "react-icons/fa";
-import { Container, Nav, Navbar } from "react-bootstrap";
+import { Navbar } from "react-bootstrap";
 import { FaRegEnvelopeOpen } from "react-icons/fa6";
 import "./navbar.scss";
 

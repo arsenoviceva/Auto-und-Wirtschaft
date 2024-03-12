@@ -3,7 +3,7 @@ import { LiaTwitterSquare } from "react-icons/lia";
 import { LiaLinkedin } from "react-icons/lia";
 import { TiPrinter } from "react-icons/ti";
 import SecondGrid from "../../components/grid/secondgrid/SecondGrid";
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./news.scss";
 
 const News = () => {
@@ -35,10 +35,10 @@ const News = () => {
         <div className="col-lg-12">
           <div className="row">
             <div className="rowtitle">
-              <h4 style={{ color: "#b51722" }}>
+              <h4 className="carsLabel">
                 {" "}
                 CARS{" "}
-                <span
+                <span className="dateLabel"
                   style={{
                     backgroundColor: "#47689e",
                     color: "white",
@@ -104,7 +104,7 @@ const News = () => {
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea commodo consequat.
             </h4>
-            <div className="row">
+           
               <div className="col-lg-9">
                 <img
                   src="https://advertising.symple.ch/www/images/84529c2e9eb33d357352ca9fdae9737e.gif"
@@ -114,7 +114,7 @@ const News = () => {
                   width="100%"
                 />
                 <br /> <br />
-                <p>
+                <p className="paragraph">
                   {" "}
                   Dies Österreich ist eine kleine Welt, in der die große ihre
                   Probe hält“, schrieb Christian Friedrich Hebbel im Jahr 1862.
@@ -149,12 +149,11 @@ const News = () => {
                   Das ist auch eine Folge der Personaleinsparungen, die rund um
                   den Jahreswechsel 2022/23 durchgeführt wurden.
                 </p>
-                <img
+                <img className="detailLabelPic"
                   src="https://autoundwirtschaft.at/NewsImages-870x580/pic41704_1-nicht-jeder-test-ist-erfolgreich.png"
-                  style={{ width: "100%" }}
+                  
                 />{" "}
-                <br />
-                <br />
+                 
                 <img
                   src="https://advertising.symple.ch/www/images/84529c2e9eb33d357352ca9fdae9737e.gif"
                   alt=""
@@ -162,7 +161,7 @@ const News = () => {
                   border="0"
                   width="100%"
                 />
-                <p>
+                <p className="paragraph">
                   {" "}
                   Dies Österreich ist eine kleine Welt, in der die große ihre
                   Probe hält“, schrieb Christian Friedrich Hebbel im Jahr 1862.
@@ -217,8 +216,8 @@ const News = () => {
                     />
                   </div>
                 </div>
-                <br />
-                <p>
+               
+                <p className="paragraph">
                   {" "}
                   Da viele Funktionen (etwa die Verwaltung der Vorführautos) von
                   den Händlern zum Importeur gewandert sind, wurde in der
@@ -296,11 +295,11 @@ const News = () => {
                 </ol>
               </div>
             </div>
-          </div>
+          
           <div className="ending">
             <h3> A&W Wisseen </h3>
             <Link
-              to="/categoryList "
+              to="/category"
               target="_top"
               style={{
                 textDecoration: "none",

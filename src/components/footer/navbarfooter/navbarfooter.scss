@@ -3,7 +3,8 @@
   max-width: 100%;
 }
 .navbar-brand {
-  font-size: 1em;
+  font-size: 1.1em !important;
+  
 }
 
 .links {
@@ -11,4 +12,8 @@
   justify-content: space-between;
   align-items: center;
   margin-left: 1rem;
+   
+}
+.noPadding{
+  padding: 0 !important;
 }

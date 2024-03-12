@@ -24,8 +24,8 @@ const ThirdGrid = () => {
                   />
                   <div class="card-body">
                     <div className="titleopasity">
-                      <span class="card-title1 ">NEWS</span>
-                      <span class="card-title2 ">SHORT TITLE</span>
+                      <span class="news-title1 ">NEWS</span>
+                      <span class="shortTitle-title2 ">SHORT TITLE</span>
                     </div>
                     <p class="card-text">
                       Neu Porsche Macan EV Prototype Drive
@@ -42,46 +42,8 @@ const ThirdGrid = () => {
                   />
                   <div class="card-body">
                     <div className="titleopasity">
-                      <span class="card-title1 ">NEWS</span>
-                      <span class="card-title2 ">SHORT TITLE</span>
-                    </div>
-                    <p class="card-text">
-                      Neu Porsche Macan EV Prototype Drive
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="row">
-              <div class="col-lg-6">
-                <div class="card">
-                  <img
-                    className="card-img"
-                    src="https://autoundwirtschaft.at/NewsImages-868x537/pic41766_1-land-oberosterreich-will-keine-byd-fahrzeuge.jpeg"
-                  />
-                  <div class="card-body">
-                    <div className="titleopasity">
-                      <span class="card-title1 ">NEWS</span>
-                      <span class="card-title2 ">SHORT TITLE</span>
-                    </div>
-                    <p class="card-text">
-                      Neu Porsche Macan EV Prototype Drive
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-6">
-                <div class="card">
-                  <img
-                    className="card-img"
-                    src="https://autoundwirtschaft.at/NewsImages-868x537/pic41766_1-land-oberosterreich-will-keine-byd-fahrzeuge.jpeg"
-                  />
-                  <div class="card-body">
-                    <div className="titleopasity">
-                      <span class="card-title1 ">NEWS</span>
-                      <span class="card-title2 ">SHORT TITLE</span>
+                      <span class="news-title1 ">NEWS</span>
+                      <span class="shortTitle-title2 ">SHORT TITLE</span>
                     </div>
                     <p class="card-text">
                       Neu Porsche Macan EV Prototype Drive
@@ -100,8 +62,8 @@ const ThirdGrid = () => {
                   />
                   <div class="card-body">
                     <div className="titleopasity">
-                      <span class="card-title1 ">NEWS</span>
-                      <span class="card-title2 ">SHORT TITLE</span>
+                      <span class="news-title1 ">NEWS</span>
+                      <span class="shortTitle-title2 ">SHORT TITLE</span>
                     </div>
                     <p class="card-text">
                       Neu Porsche Macan EV Prototype Drive
@@ -118,8 +80,46 @@ const ThirdGrid = () => {
                   />
                   <div class="card-body">
                     <div className="titleopasity">
-                      <span class="card-title1 ">NEWS</span>
-                      <span class="card-title2 ">SHORT TITLE</span>
+                      <span class="news-title1 ">NEWS</span>
+                      <span class="shortTitle-title2 ">SHORT TITLE</span>
+                    </div>
+                    <p class="card-text">
+                      Neu Porsche Macan EV Prototype Drive
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="row">
+              <div class="col-lg-6">
+                <div class="card">
+                  <img
+                    className="card-img"
+                    src="https://autoundwirtschaft.at/NewsImages-868x537/pic41766_1-land-oberosterreich-will-keine-byd-fahrzeuge.jpeg"
+                  />
+                  <div class="card-body">
+                    <div className="titleopasity">
+                      <span class="news-title1 ">NEWS</span>
+                      <span class="shortTitle-title2 ">SHORT TITLE</span>
+                    </div>
+                    <p class="card-text">
+                      Neu Porsche Macan EV Prototype Drive
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="card">
+                  <img
+                    className="card-img"
+                    src="https://autoundwirtschaft.at/NewsImages-868x537/pic41766_1-land-oberosterreich-will-keine-byd-fahrzeuge.jpeg"
+                  />
+                  <div class="card-body">
+                    <div className="titleopasity">
+                      <span class="news-title1 ">NEWS</span>
+                      <span class="shortTitle-title2 ">SHORT TITLE</span>
                     </div>
                     <p class="card-text">
                       Neu Porsche Macan EV Prototype Drive
@@ -147,8 +147,8 @@ const ThirdGrid = () => {
                   />
                   <div class="card-body">
                     <div className="titleopasity">
-                      <span class="card-title1 ">NEWS</span>
-                      <span class="card-title2 ">SHORT TITLE</span>
+                      <span class="news-title1 ">NEWS</span>
+                      <span class="shortTitle-title2 ">SHORT TITLE</span>
                     </div>
                     <p class="card-text">
                       Neu Porsche Macan EV Prototype Drive
@@ -165,8 +165,8 @@ const ThirdGrid = () => {
                   />
                   <div class="card-body">
                     <div className="titleopasity">
-                      <span class="card-title1 ">NEWS</span>
-                      <span class="card-title2 ">SHORT TITLE</span>
+                      <span class="news-title1 ">NEWS</span>
+                      <span class="shortTitle-title2 ">SHORT TITLE</span>
                     </div>
                     <p class="card-text">
                       Neu Porsche Macan EV Prototype Drive
@@ -185,8 +185,8 @@ const ThirdGrid = () => {
                   />
                   <div class="card-body">
                     <div className="titleopasity">
-                      <span class="card-title1 ">NEWS</span>
-                      <span class="card-title2 ">SHORT TITLE</span>
+                      <span class="news-title1 ">NEWS</span>
+                      <span class="shortTitle-title2 ">SHORT TITLE</span>
                     </div>
                     <p class="card-text">
                       Neu Porsche Macan EV Prototype Drive
@@ -203,8 +203,8 @@ const ThirdGrid = () => {
                   />
                   <div class="card-body">
                     <div className="titleopasity">
-                      <span class="card-title1 ">NEWS</span>
-                      <span class="card-title2 ">SHORT TITLE</span>
+                      <span class="news-title1 ">NEWS</span>
+                      <span class="shortTitle-title2 ">SHORT TITLE</span>
                     </div>
                     <p class="card-text">
                       Neu Porsche Macan EV Prototype Drive
@@ -222,8 +222,8 @@ const ThirdGrid = () => {
                   />
                   <div class="card-body">
                     <div className="titleopasity">
-                      <span class="card-title1 ">NEWS</span>
-                      <span class="card-title2 ">SHORT TITLE</span>
+                      <span class="news-title1 ">NEWS</span>
+                      <span class="shortTitle-title2 ">SHORT TITLE</span>
                     </div>
                     <p class="card-text">
                       Neu Porsche Macan EV Prototype Drive
@@ -240,8 +240,8 @@ const ThirdGrid = () => {
                   />
                   <div class="card-body">
                     <div className="titleopasity">
-                      <span class="card-title1 ">NEWS</span>
-                      <span class="card-title2 ">SHORT TITLE</span>
+                      <span class="news-title1 ">NEWS</span>
+                      <span class="shortTitle-title2 ">SHORT TITLE</span>
                     </div>
                     <p class="card-text">
                       Neu Porsche Macan EV Prototype Drive

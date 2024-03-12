@@ -85,23 +85,30 @@ ol li::before {
 
 .titleopasity {
   display: flex;
-  justify-content: center;
+  align-items:flex-start;
+  flex-basis: auto;
+  flex-shrink: 1;
 }
 
-.card-title1 {
+.news-title1 {
   color: red;
   display: flex;
   justify-content: end;
   background-color: #fafafa;
   opacity: 70%;
+  margin: 0;
 }
 
-.card-title2 {
+.shortTitle-title2 {
   display: flex;
   background-color: #4a639e;
   opacity: 70%;
   color: #fafafa;
-  flex-grow: 1;
+  
+  margin: 0;
+  flex-basis: auto;
+  flex-shrink: 1;
+  
 }
 
 .card .card-body {
